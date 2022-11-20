@@ -30,3 +30,7 @@ var_dump($gatos_felinos && $gatos_leen);
 
 // con una de las 2 es verdadero
 var_dump($gatos_vuelan || $gatos_4_patas);
+
+// NOT
+var_dump(!$gatos_vuelan);
+var_dump(!$gatos_leen);
