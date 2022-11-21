@@ -19,3 +19,11 @@ define("PI", 3.1416); // no se puede cambiar el valor de la constante
 El casting es para cambiar el tipo de dato de una variable - de manera forzada
 
 operdores logicos
+
+# Presedencia de operadores
+1. ()
+2. **
+3. * / %
+4. + -
+
+https://www.php.net/manual/es/language.operators.precedence.php
