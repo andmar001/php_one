@@ -1,3 +1,32 @@
+Hola perras estoy desde la terminal de nano
+
+Para ingresar a nano colocamos
+nano "nombre y extension del archivo"
+nano prueba.php
+
+Creacion de una carpeta nueva
+mkdir "nombre de la carpeta"
+
+Creacion de un archivo
+touch "nombre del archivo"
+
+
+editamos el contenido del archivo
+
+para guardar el contenido del archivo
+ctrl + o    save 
+ctrl + z    exit to nano
+
+Para eliminar un archivo ponemos
+
+rm "nombre del archivo"
+rm prueba.txt
+
+Podemos eliminar carpetas, cuando es carpeta usamos:
+rm -r "nombre de la carpeta"
+
+
+
 # terminal commands
 
 # list files in a directory
