@@ -35,3 +35,15 @@ var_dump($a === $b); // false
 echo 2 <=> 1;   // 1 
 echo 1 <=> 2;  //  -1
 echo 1 <=> 1;  // 0
+
+// operador de fusión nula
+// si el valor de la izquierda es nulo, devuelve el valor de la derecha
+
+$edad_perro = 23;
+// echo $edad_perro;
+
+$edad_gato = null;
+// toma la variable que si esta definida
+echo $edad_perro ?? $edad_gato ?? 'No hay edad definida';
+
+
